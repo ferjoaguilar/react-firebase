@@ -3,6 +3,7 @@ import Home from "./Home"
 import Login from './Login'
 import Signup from './Signup'
 import NotFound from "./NotFound"
+import Dashboard from "./Dashboard"
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
         path: '*',
         element: <NotFound />
+    },
+    {
+        path: '/dashboard',
+        element: <Dashboard />
     }
 ])
 

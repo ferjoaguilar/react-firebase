@@ -1,13 +1,13 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: /* USE_YOUR_FIREBASE_CONFIG */,
-  authDomain: /* USE_YOUR_FIREBASE_CONFIG */,
-  projectId:/* USE_YOUR_FIREBASE_CONFIG */,
-  storageBucket:/* USE_YOUR_FIREBASE_CONFIG */,
-  messagingSenderId: /* USE_YOUR_FIREBASE_CONFIG */,
-  appId: /* USE_YOUR_FIREBASE_CONFIG */,
-  measurementId: /* USE_YOUR_FIREBASE_CONFIG */
+  apiKey: "AIzaSyBj3XbFzDMLIH5hOCsjXG5QyEPoN4wtypI",
+  authDomain: "kodigo-manager.firebaseapp.com",
+  projectId: "kodigo-manager",
+  storageBucket: "kodigo-manager.appspot.com",
+  messagingSenderId: "626438990496",
+  appId: "1:626438990496:web:3c1316758c6a208d60f7c5",
+  measurementId: "G-ZQLMTPDYVM"
 };
 
 // Initialize Firebase
